@@ -1,0 +1,23 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/main.go",
+            "args": [
+                "--input_file=domains.txt",
+                "--output_success_file=success.txt",
+                "--output_fails_file=fails.txt",
+                "--domain_filter_file=domain_filter.txt",
+                "--workers_count=10",
+                "--accept_4xx_errors=false",
+            ]
+        }
+    ]
+}
