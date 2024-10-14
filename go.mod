@@ -1,3 +1,3 @@
 module github.com/vitaliy-art/hosts-filter
 
-go 1.21.0
+go 1.23.2
